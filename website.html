@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.js">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <!--<li><a href="#education">EDUCATION</a></li>-->
+            <li><a href="#Portfolio">PORTFOLIO</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h2 class="headings">HI, I AM <br> MANVI GARG</h2>
+            <h3>Frontend developer/Software Engineer</h3><br>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+
+
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic1(1).png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">ABOUT ME</h1>
+                    <p>I am a web developer designing and developing beautiful and functional websites. I came across
+                        your company and was impressed with the work your team has been doing in the web development
+                        space.
+                        I wanted to take a moment to share my web developer portfolio with you, which showcases my
+                        skills and experience in the field. In my portfolio, you will find examples of websites I have
+                        designed and developed, along with details on the technologies and tools I used to create
+                        them.In addition to my technical skills, I have experience working in cross-functional teams and
+                        collaborating with designers, project managers, and other stakeholders to deliver projects on
+                        time and on budget. I am passionate about creating websites that not only look great but also
+                        provide a seamless user experience.
+                        If you are interested in learning more about my experience and qualifications, please do ask me.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates and Achivements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Designing Software</li>
+                            <li><span>Python</span></li>
+                            <li><span>Web Development</span><br>Designing Website</li>
+                            <li><span>SQL</span></li>
+                            <li><span>Artificial Intelligence and Machine Learning</span></li>
+                            <li><span>Data Structure Algorithms</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>BACHELOR OF TECHNOLOGY</span><br>GLA UNIVERSITY,MATHURA(2020-2024)</li>
+                            <li><span>INTERMEDIATE</span><br>TINY TOTS INTER COLLEGE, TUNDLA(2019-2020)</li>
+                            <li><span>HIGH SCHOOL</span><br>TINY TOTS INTER COLLEGE, TUNDLA(2017-2018)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="certificates">
+                        <ul>
+                            <li><span>Certification in SQL by IBM.</li>
+                            <li><span>Certification in HTML, CSS, and Javascript for Web Developers (Johns Hopkins
+                                    University) by Coursera.</li>
+                            <li><span>Certification in Exploring Data Science as Gold Medalist by Job Oriented
+                                    Value-Added Course.</li>
+                            <li><span>Participate in IBM National Hackathon CODEWAR23, UPES</li>
+                            <li><span> 5 Stars at HackerRank on Java and Python</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- --------services------------ -->
+    <!--<div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="services\website.png" alt="">
+                    <h2>Web Design</h2>
+                    <p>A cottage construction responsive website used to show lgsf technique to build steel frame houses
+                        . in this web we created different web pages and have three sections about , works , and LGSF .
+                        We also have some php code at backend used to get queries and contact by giving the details on
+                        it .</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Dogecoin Prediction using Machine Learning</h2>
+                    <p>Machine Learning Project using Python in Jupyter notebook and google colab for implementing the
+                        code. My role is as a coder and design PPT. By leveraging historical data and advanced
+                        algorithms, accurate predictions are made to assist in informed investment decisions.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>TODO List Web Design</h2>
+                    <p>Todolist Website empowers you to streamline tasks, collaborate seamlessly, and boost
+                        productivity. Simplify your life with intuitive task management and personalized workflows.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+    <!--------------Portfilio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot 2023-11-17 184711.png" alt="">
+                    <div class="layer">Travelling booking site</div>
+                    <p>This is a booking site for travellers.</p>
+                    <a href="#"><i class="fa-solid fa-link-alt"></i></a>
+                </div>
+                <div class="work">
+                    <img src="Screenshot 2023-11-17 185206.png" alt="">
+                </div>
+                <div class="work">
+                    <img src="Screenshot 2023-11-17 185443.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!--<section id="about">
+        <div class="pic">
+            <h2 class="headings">ABOUT ME</h2>
+            <img src="pic1(1).png" alt="">
+            <div id="intro">
+                <h2>MANVI GARG</h2>
+                <p>I am a web developer designing and developing beautiful and functional websites. I came across
+                    your company and was impressed with the work your team has been doing in the web development
+                    space.
+                    I wanted to take a moment to share my web developer portfolio with you, which showcases my
+                    skills and experience in the field. In my portfolio, you will find examples of websites I have
+                    designed and developed, along with details on the technologies and tools I used to create
+                    them.In addition to my technical skills, I have experience working in cross-functional teams and
+                    collaborating with designers, project managers, and other stakeholders to deliver projects on
+                    time and on budget. I am passionate about creating websites that not only look great but also
+                    provide a seamless user experience.
+                    If you are interested in learning more about my experience and qualifications, please do ask me
+                    .
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section-->
+    <!--<section class="education" id="education">
+        <h1 class="heading">My Journey </h1>
+        <br>
+
+        <div class="education-row">
+            <div class="education-coloum">
+                <h3 class="title">EDUCATION</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><box-icon name='calendar' type='solid' ></box-icon>2020-2024
+                            </div>
+                            <h3>BACHELOR OF TECHNOLOGY - GLA UNIVERSITY, MATHURA</h3>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><box-icon name='calendar' type='solid' ></box-icon>2019-2020
+                            </div>
+                            <h3>INTERMEDIATE - TINY TOTS INTER COLLEGE, TUNDLA</h3>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><box-icon name='calendar' type='solid' ></box-icon>2017-2018
+                            </div>
+                            <h3>HIGH SCHOOL - TINY TOTS INTER COLLEGE, TUNDLA</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section id="project">
+        <h3 class="headings">PROJECTS</h3>
+        <div class="row">
+            <div class="box">
+                <img src="services\website.png" alt="">
+                <h2 class="headings">Website: InstaBuild</h2>
+                <p>A cottage construction responsive website used to show lgsf technique to build steel frame houses .
+                    in this web we created different web pages and have three sections about , works , and LGSF . We
+                    also have some php code at backend used to get queries and contact by giving the details on it .</p>
+            </div>
+            <div class="box">
+                <img src="services\todo list.png" alt="">
+                <h2 class="headings">TODO List</h2>
+                <p>Todolist Website empowers you to streamline tasks, collaborate seamlessly, and boost productivity.
+                    Simplify your life with intuitive task management and personalized workflows.</p>
+            </div>
+            <div class="box">
+                <img src="services\ml.jpeg" alt="">
+                <h2 class="headings">Dogecoin Prediction <br> using ML</h2>
+                <p>Machine Learning Project using Python in Jupyter notebook and google colab for implementing the code.
+                    My role is as a coder and design PPT. By leveraging historical data and advanced algorithms,
+                    accurate predictions are made to assist in informed investment decisions.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action=" " class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+
+</html>
